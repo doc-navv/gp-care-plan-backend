@@ -1,0 +1,19 @@
+{
+  "name": "gp-care-plan-api",
+  "version": "1.0.0",
+  "description": "Australian GP Chronic Care Management Plan Generator API",
+  "main": "api/generate.js",
+  "scripts": {
+    "start": "node api/generate.js",
+    "dev": "nodemon api/generate.js"
+  },
+  "dependencies": {
+    "openai": "^4.24.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["gp", "healthcare", "australia", "chronic-care", "openai"],
+  "author": "Australian GP",
+  "license": "MIT"
+}
